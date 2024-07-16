@@ -15,8 +15,8 @@ body {
         font-size: 18px;
         font-weight: bold;
     }
-    main {
-        padding: 150px;
+main {
+    padding: 150px 0;
     }
     /* サインと写真ナビ　スマホ */
 .container-sp {
