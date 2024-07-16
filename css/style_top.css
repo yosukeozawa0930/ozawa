@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    margin: 0;
+    background-color: #040404;
+    color: #fff;
+}
+
+    h2 {
+        color: #000000;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    main {
+        padding: 150px;
+    }
+    /* サインと写真ナビ　スマホ */
+.container-sp {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 33px;
+ }
+ /* 白のサイン二段 */
+ .sign-2c {
+    height: 14vh;
+
+ }
+ 
+/* 演奏写真1ページ目の写真 */
+.mito-vn {
+    margin-top: 65px;
+    height: 40vh;
+    margin-left: 40px;
+    margin: 45px 10px auto 20px ;
+}
+
+/* PC用Top画面グリット */
+.grid {
+    display: grid;
+    grid-template-columns: 245px 288px 120px 525px 122px;
+    grid-template-rows: 120px 255px 705px;
+}
+.grid-sign {
+    grid-column: 2 / 4 ;
+    grid-row: 2;
+    /* border: 5px solid rgb(253, 106, 27); */
+    z-index: 2;
+}
+.grid-photo {
+    grid-column: 3 / 5 ;
+    grid-row:  2;   
+    /* border: 2px solid red; */
+    z-index: 1;
+
+}
+.grid-nav {
+    grid-column: 2;
+    grid-row: 3;  
+    z-index: 3;
+}
+.grid-nav ul {
+    margin: 110px 0 0 80px;
+    line-height: 2.3;
+    }
+.grid-nav li {
+    font-size: 22px;
+    color: white;
+}
+.grid-nav li a:hover {
+    color: rgb(150, 160, 246);
+    background-color: antiquewhite;
+    transition: all 0.2s;
+}
+
+
+.sp ul {
+    color: #fff;
+    list-style-type: none;
+    font-size: 14px;
+    line-height: 1.8;
+    margin-top: 30px;
+    /* height: 10vh; */
+
+}
+
