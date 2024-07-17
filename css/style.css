@@ -1,8 +1,5 @@
 @charset "utf-8";
 
-/* アルゲマイネ */
-
-
 @media screen and (max-width:719px) {
     .pc {
         display: none;
@@ -89,7 +86,7 @@ nav .inner ul li a:hover {
     left: 0;
     width: 30px;
     height: 2px;
-    background-color: #333;
+    background-color: #6c6c6c;
     transition: all 0.5s;
     border-radius: 4px;
 }
@@ -130,3 +127,14 @@ nav .inner ul li a:hover {
     opacity: 0.8;
     cursor: pointer;
 } 
+footer {
+    background-color: #020202;
+    height: 40px;
+}
+.footer {
+    font-size: 18px;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+
+}
