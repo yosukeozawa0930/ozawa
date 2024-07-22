@@ -1,6 +1,12 @@
 @charset "utf-8";
 
-@media screen and (max-width:719px) {
+body {
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+@media screen and (max-width:758px){
+    /*479px以下の場合、以下を実行*/
     .pc {
         display: none;
     }
@@ -9,7 +15,8 @@
     }
 }
 
-@media  screen and (min-width:720px) {
+@media  screen and (min-width:759px){
+        /*480px以上の場合、以下を実行*/
     .sp {
         display: none ;
     }  
@@ -132,7 +139,9 @@ footer {
     height: 40px;
 }
 .footer {
+    max-width: 1300px;
     font-size: 18px;
+    margin: auto;
     color: #fff;
     display: flex;
     justify-content: space-evenly;
