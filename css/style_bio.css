@@ -28,7 +28,7 @@ h2 {
 }
 h3 {
     /* 最小1.8rem | SP:2rem | TB:2.5rem | PC:3rem | 最大3.2rem */
-	font-size: clamp(1.8rem, calc(1.25vw + 1.1rem), 3.2rem);
+	font-size: clamp(1.4rem, calc(1.25vw + 1rem), 3.2rem);
     margin-bottom: 1vw;
 }
 p.profcontents-pc {
